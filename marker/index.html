@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>marker. — Yasal Bilgiler</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FBFBF6;
+    --text: #0E0E0E;
+    --muted: #666;
+    --subtle: #888;
+    --mint: #C8DC92;
+    --border: #E8E8E0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); color: var(--text); font-family: -apple-system, system-ui, sans-serif; }
+  body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 560px;
+    width: 100%;
+  }
+  h1 {
+    font-family: "Instrument Serif", Georgia, serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+  h1 em {
+    font-style: italic;
+  }
+  .tagline {
+    color: var(--muted);
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  .tag {
+    display: inline-block;
+    background: var(--mint);
+    color: var(--text);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 24px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 22px;
+    text-decoration: none;
+    color: var(--text);
+    transition: background 0.15s, transform 0.1s;
+  }
+  .link:hover {
+    background: var(--mint);
+  }
+  .link:active { transform: scale(0.99); }
+  .link-title {
+    font-family: "Instrument Serif", Georgia, serif;
+    font-size: 22px;
+  }
+  .link-arrow {
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .footer {
+    margin-top: 50px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--subtle);
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  .footer a { color: var(--text); text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="container">
+  <span class="tag">YASAL · LEGAL</span>
+  <h1>marker.</h1>
+  <p class="tagline">
+    Günlük yapay zekâ haber özeti.<br>
+    Daily AI news brief.
+  </p>
+
+  <div class="links">
+    <a href="privacy.html" class="link">
+      <span class="link-title">Gizlilik Politikası</span>
+      <span class="link-arrow">→</span>
+    </a>
+    <a href="terms.html" class="link">
+      <span class="link-title">Kullanım Koşulları</span>
+      <span class="link-arrow">→</span>
+    </a>
+  </div>
+
+  <div class="footer">
+    <strong>İletişim · Contact:</strong> <a href="mailto:hazarustun@gmail.com">hazarustun@gmail.com</a><br>
+    <strong>Geliştirici · Developer:</strong> Hazar Üstün<br>
+    <strong>Bundle ID:</strong> com.hazarustun.ainewsapp
+  </div>
+</div>
+</body>
+</html>
